@@ -18,4 +18,8 @@ public class ShoppingBasket {
     public void addItems(Sellable item) {
         basket.add(item);
     }
+
+    public void removeItem(Sellable item) {
+        basket.remove(item);
+    }
 }
