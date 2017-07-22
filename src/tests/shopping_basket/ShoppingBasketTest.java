@@ -46,4 +46,11 @@ public class ShoppingBasketTest {
         basket.emptyBasket();
         assertEquals(0, basket.getItems());
     }
+
+    @Test
+    public void calculateBasketValue() {
+        basket.addItems(cereal);
+        basket.addItems(pasta);
+        assertEquals(8, basket.itemValues());
+    }
 }
