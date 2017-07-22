@@ -10,4 +10,7 @@ public abstract class ShopItem {
         this.sellingPrice = sellingPrice;
     }
 
+    public int getBuyingPrice() {
+        return this.buyingPrice;
+    }
 }
