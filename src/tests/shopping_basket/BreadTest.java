@@ -18,4 +18,9 @@ public class BreadTest {
     public void getBuyingPrice() {
         assertEquals(2, bread.getBuyingPrice());
     }
+
+    @Test
+    public void getSellingPrice() {
+        assertEquals(4, bread.getSellingPrice());
+    }
 }
