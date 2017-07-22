@@ -26,4 +26,14 @@ public class ShoppingBasket {
     public void emptyBasket() {
         basket.clear();
     }
+
+    public int itemValues() {
+        int value = 0;
+
+        for (Sellable item : this.basket) {
+            value += item.getSellingPrice();
+        }
+        return value;
+    }
+
 }
