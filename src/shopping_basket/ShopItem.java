@@ -17,4 +17,8 @@ public abstract class ShopItem {
     public int getSellingPrice() {
         return sellingPrice;
     }
+
+    public int calculateMarkUp() {
+        return sellingPrice - buyingPrice;
+    }
 }
