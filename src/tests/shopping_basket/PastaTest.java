@@ -24,4 +24,8 @@ public class PastaTest {
         assertEquals(3, pasta.getSellingPrice());
     }
 
+    @Test
+    public void calculateMarkUp() {
+        assertEquals(2, pasta.calculateMarkUp());
+    }
 }

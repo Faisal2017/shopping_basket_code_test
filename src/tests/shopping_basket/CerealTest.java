@@ -23,4 +23,9 @@ public class CerealTest {
     public void getSellingPrice() {
         assertEquals(5, cereal.getSellingPrice());
     }
+
+    @Test
+    public void calculateMarkUp() {
+        assertEquals(3, cereal.calculateMarkUp());
+    }
 }
