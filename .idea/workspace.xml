@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa1c5694-2dbb-4f40-b456-b1e9c61401b2" name="Default" comment="" />
+    <list default="true" id="aa1c5694-2dbb-4f40-b456-b1e9c61401b2" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/shopping_basket/shopItem.java" afterPath="$PROJECT_DIR$/src/shopping_basket/ShopItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,14 +25,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shopItem.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/shopping_basket/shopItem.java">
+      <file leaf-file-name="ShopItem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shopping_basket/ShopItem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
               <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bread.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/shopping_basket/Bread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
-                <element signature="e#129#130#0" expanded="true" />
-                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#118#119#0" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,6 +71,8 @@
         <option value="$PROJECT_DIR$/src/shopping_basket/ShoppingBasket.java" />
         <option value="$PROJECT_DIR$/src/shopping_basket/Cereal.java" />
         <option value="$PROJECT_DIR$/src/shopping_basket/Buyable.java" />
+        <option value="$PROJECT_DIR$/src/shopping_basket/ShopItem.java" />
+        <option value="$PROJECT_DIR$/src/shopping_basket/Bread.java" />
       </list>
     </option>
   </component>
@@ -274,13 +289,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/shopping_basket/shopItem.java">
+    <entry file="file://$PROJECT_DIR$/src/shopping_basket/ShopItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shopping_basket/Bread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
           </folding>
         </state>
       </provider>
