@@ -14,4 +14,8 @@ public class ShoppingBasket {
     public int getItems() {
         return basket.size();
     }
+
+    public void addItems(Sellable item) {
+        basket.add(item);
+    }
 }
