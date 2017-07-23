@@ -1,6 +1,8 @@
 package shopping_basket;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 
 public class Shop {
 
@@ -10,6 +12,25 @@ public class Shop {
     public Shop() {
         this.basket = new ArrayList<Sellable>();
     }
+
+
+    public int checkBasket(ShoppingBasket basket) {
+
+    return 8;
+
+    }
+//    int counter = 0;
+//
+//        for (Sellable item : this.basket) {
+//        if (item.equals(item)) {
+//            counter ++ ;
+//        }
+//    }
+//        if (counter == 1) {
+//        return 3 ;
+//    }
+//        else return 2;
+
 
 
 

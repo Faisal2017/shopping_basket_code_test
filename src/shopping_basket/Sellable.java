@@ -4,4 +4,5 @@ public interface Sellable {
 
     int calculateMarkUp();
     int getSellingPrice();
+
 }

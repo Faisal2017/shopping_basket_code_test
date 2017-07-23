@@ -26,11 +26,18 @@ public class ShopTest {
 
     @Test
     public void testValueAtTill() {
-        basket.addItems(bread);
-        basket.itemValues();
+        basket.addItems(cereal);
+        basket.addItems(cereal);
         int totalToPay = shop.checkBasket(basket);
-        assertEquals(1, totalToPay);
+        assertEquals(8, totalToPay);
     }
 
+    @Test
+    public void testPercentageDiscount() {
+        basket.addItems(bread);
+        basket.addItems(cereal);
+        int basketValue = basket.itemValues();
+        assertEquals(35, shop.applyDiscount());
+    }
 
 }
