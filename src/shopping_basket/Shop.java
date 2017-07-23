@@ -14,11 +14,12 @@ public class Shop {
     }
 
 
-    public int checkBasket(ShoppingBasket basket) {
+    public int checkBasket(Basket basket) {
 
     return 8;
 
     }
+
 //    int counter = 0;
 //
 //        for (Sellable item : this.basket) {
@@ -30,8 +31,6 @@ public class Shop {
 //        return 3 ;
 //    }
 //        else return 2;
-
-
 
 
 }

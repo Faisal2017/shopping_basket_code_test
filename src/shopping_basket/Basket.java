@@ -2,11 +2,11 @@ package shopping_basket;
 
 import java.util.ArrayList;
 
-public class ShoppingBasket {
+public class Basket {
 
     private ArrayList<Sellable> basket;
 
-    public ShoppingBasket() {
+    public Basket() {
         this.basket = new ArrayList<Sellable>();
     }
 

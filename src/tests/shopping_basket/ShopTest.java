@@ -10,14 +10,14 @@ import static org.junit.Assert.*;
 public class ShopTest {
 
     private Shop shop;
-    private ShoppingBasket basket;
+    private Basket basket;
     private Bread bread;
     private Pasta pasta;
     private Cereal cereal;
 
     @Before
     public void setUp() throws Exception {
-        basket = new ShoppingBasket();
+        basket = new Basket();
         shop = new Shop();
         bread = new Bread(10, 20);
         pasta = new Pasta(7, 14);
@@ -30,14 +30,6 @@ public class ShopTest {
         basket.addItems(cereal);
         int totalToPay = shop.checkBasket(basket);
         assertEquals(8, totalToPay);
-    }
-
-    @Test
-    public void testPercentageDiscount() {
-        basket.addItems(bread);
-        basket.addItems(cereal);
-        int basketValue = basket.itemValues();
-        assertEquals(35, shop.applyDiscount());
     }
 
 }

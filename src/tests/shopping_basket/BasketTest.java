@@ -5,9 +5,9 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class ShoppingBasketTest {
+public class BasketTest {
 
-    private ShoppingBasket basket;
+    private Basket basket;
     private Bread bread;
     private Cereal cereal;
     private Pasta pasta;
@@ -15,7 +15,7 @@ public class ShoppingBasketTest {
 
     @Before
     public void setUp() throws Exception {
-        basket = new ShoppingBasket();
+        basket = new Basket();
         bread = new Bread(2,4);
         cereal = new Cereal(2, 5);
         pasta = new Pasta(1,3);
