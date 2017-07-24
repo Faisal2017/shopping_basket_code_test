@@ -14,23 +14,31 @@ public class Shop {
     }
 
 
-    public int checkBasket(Basket basket) {
+    public int buyOneGetOneFree(Basket basket) {
 
-    return 8;
+        int counter = 0;
 
+        for (Sellable item : this.basket) {
+            if (item.equals("cereal")) {
+                counter ++ ;
+            }
+        }
+        if (counter > 1) {
+            return basket.itemValues() / 2 ;
+        }
+        else return basket.itemValues();
     }
 
-//    int counter = 0;
-//
-//        for (Sellable item : this.basket) {
-//        if (item.equals(item)) {
-//            counter ++ ;
-//        }
-//    }
-//        if (counter == 1) {
-//        return 3 ;
-//    }
-//        else return 2;
+    public int percentageDiscount(Basket basket) {
+        int multiplier = 90 / 100;
+
+
+        if (basket.itemValues() > 20) {
+            return basket.itemValues() * multiplier;
+        }
+        else return basket.itemValues();
+    }
+
 
 
 }

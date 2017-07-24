@@ -25,11 +25,19 @@ public class ShopTest {
     }
 
     @Test
-    public void testValueAtTill() {
+    public void testBuyOneGetOneFree() {
         basket.addItems(cereal);
         basket.addItems(cereal);
-        int totalToPay = shop.checkBasket(basket);
-        assertEquals(8, totalToPay);
+        int totalToPay = shop.buyOneGetOneFree(basket);
+        assertEquals(15, totalToPay);
+    }
+
+    @Test
+    public void testDiscountOverTwenty() {
+        basket.addItems(bread);
+        basket.addItems(cereal);
+        int totalToPay = shop.percentageDiscount(basket);
+        assertEquals(35, totalToPay);
     }
 
 }
